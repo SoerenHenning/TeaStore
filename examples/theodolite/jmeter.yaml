@@ -26,7 +26,7 @@ spec:
           image: justb4/jmeter:5.4
           command: [ "/bin/bash", "-c", "--" ]
           args:
-            - >
+            - |
               java -jar bin/ApacheJMeter.jar \
               -t profile/teastore_browse_nogui.jmx \
               -Jhostname teastore-webui \
